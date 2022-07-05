@@ -18,7 +18,10 @@ func main() { // funcion main (funcion principal)
 	y = "adios."
 
 	// otra forma de declarar pero su alcance sera local (es decir alcance dentro de la funcion donde fue creada)
-	z := "Esto es un string" // otra forma de declarar y se tiene que inicializar el valor, aparte no se pone el tipo de dato.
+	z := "Esto es un string" // otra forma de declarar y se tiene que inicializar el valor, aparte no se pone el tipo de dato., se puede decir que se omite el tipo de dato
 
 	fmt.Println(x, y, z)
 }
+
+// para ejecutar este archivo el comando seria: go run 001.go
+// si queremos un archivo ejecutable para produccion debemos usar este otro comando: go build 001.go => Me crea una compilacion en binario para ser llevada a produccion

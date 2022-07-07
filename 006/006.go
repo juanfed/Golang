@@ -59,4 +59,19 @@ func main() {
 	fmt.Println("La capacidad es: ", cap(meses), "\nLa longitud es de: ", len(meses))
 
 	// podemos verificar esto imprimiendo sus direcciones de memoria
+
+	// resumen
+	// los slices son referencias de un arreglo
+	numeros2 := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	// si modificamos los elemeentos de un array, estos cambios se veran reflejados en los slices que dependen de el.
+
+	numeros2[0] = 100
+	numeros2[5] = 600
+
+	inicio := numeros2[0:3]
+	final := numeros2[3:6]
+
+	fmt.Println(numeros2)
+	fmt.Println(inicio)
+	fmt.Println(final)
 }

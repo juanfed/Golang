@@ -40,4 +40,25 @@ func main() {
 
 	// Impresion de un map que almacena clave usuarios y valor slices con sus notas
 	fmt.Println(usuarios)
+
+	// otra forma en la cual se puede crear un map seria de la siguiente forma:
+
+	nuevoMap := map[int]string{} // sin necesidad de usar la funcion make
+
+	nuevoMap[0] = "Usuario"
+	nuevoMap[1] = "Usuario 1"
+	nuevoMap[2] = "Usuario 2"
+	nuevoMap[3] = "Usuario 3"
+	nuevoMap[4] = "Usuario 4"
+
+	fmt.Println(nuevoMap)
+
+	// ahora la forma para iterar sobre los mapas seria la sieguiente
+	// for variable1 (llave de los registros) variable2 (valor de esa llave)
+
+	// si la impresion es de un orden diferente es porque las llaves no poeen un orden por ende la imprecion varia de una ejecucion u otra
+	for llave, valor := range nuevoMap {
+		fmt.Println(llave, valor)
+	}
+
 }

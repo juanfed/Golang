@@ -18,4 +18,15 @@ func main() {
 		fmt.Println("No eres mayor de edad, no puedes pasar 😥")
 	}
 
+	// tambien podemos declarar e inicializar variables utilizando la sentencia if, ejemplo
+
+	// aca declaro y asigno valores a las variables, luego del ";" es que pongo la condicion.
+	if nombre, edad := "Cody", 17; nombre == "Cody" {
+		fmt.Println("Hola ", nombre, "espero que este bien el dia de hoy")
+	} else {
+		fmt.Println("Los valores son: ", nombre, edad)
+	}
+
+	// esas variables declaras en el if solo seran existente dentro de ese bloque condicional
+
 }

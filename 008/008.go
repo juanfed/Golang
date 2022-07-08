@@ -57,7 +57,7 @@ func main() {
 	// for variable1 (llave de los registros) variable2 (valor de esa llave)
 
 	// si la impresion es de un orden diferente es porque las llaves no poeen un orden por ende la imprecion varia de una ejecucion u otra
-	for llave, valor := range nuevoMap {
+	for llave, valor := range nuevoMap { // for id, username
 		fmt.Println(llave, valor)
 	}
 

@@ -23,4 +23,19 @@ func main() {
 		fmt.Print("Calificacion no valida")
 	}
 
+	// otra forma de usar este condicional switch
+
+	switch calificacion {
+	case 10:
+		fmt.Print("Su calificación ha sido perfecta")
+	case 8, 9:
+		fmt.Print("Aprovaste la materia")
+	case 7, 6:
+		fmt.Print("Aprovaste a materia, pero neceistas estudiar más.")
+	case 0, 1, 2, 3, 4, 5:
+		fmt.Print("No aprovaste la materia")
+	default:
+		fmt.Print("Calificación no valida")
+	}
+
 }

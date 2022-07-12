@@ -1,0 +1,4 @@
+1) ingresar 3 numeros y determinar cual de ellos es el mayor
+2) Creacion de una calculadora simple
+3) Solicitar 2 numeros enteros y determinar si son numeros de 1, 2, 3, o x cifras
+4) Solicitar 3 números enteros y si el primero de de ellos es negativo, calcular el producto de los 3, en caso contrario, calcular la suma de ellos

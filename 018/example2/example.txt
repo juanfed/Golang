@@ -1,0 +1,3 @@
+Esto es un archivo .txt el cual va a ser leido desde un archivo.go Esto
+me servira para practicar y para ver todo el potencial que tiene la 
+palabra defer a la hora de programar funciones.

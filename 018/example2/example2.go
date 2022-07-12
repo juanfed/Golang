@@ -10,24 +10,32 @@ import (
 ) // este paquete me servira para leer el archivo .txt
 
 func main() {
-	file, err := os.Open("example.txt") // direccion del archivo
-
-	if err != nil {
-		panic("No fue posible obtener el archivo")
-	}
-
-	// siempre que trabajemos con archivos de nuestro sistema una vez dejado de usarlos sera necesario cerrarlos para que otro programa haga uso de ellos
 	defer func() {
-		fmt.Println("cerramos el archivo!!")
-		file.Close() // cerrará el archivo
+		// esta funcion nos retornará un posible error, evitará que se mande el error y mas bien mandara un mensaje de lo ocurrido
+		if err := recover(); err != nil {
+			// aca entro puedo mostrar un mensaje o jecutar todas las sentencias que quiera
+			fmt.Println("Ups!. El programa no pudo finalizar de forma correcta")
+		}
 	}()
 
-	// declaro una nueva variable
-	contenido := make([]byte, 254)
+	if file, err := os.Open("example2.txt"); err != nil {
+		panic("No fue posible obtener el archivo") // lanzara un error de status 2 y finalizara de manera abructa
+	} else {
 
-	longitud, _ := file.Read(contenido)
+		// siempre que trabajemos con archivos de nuestro sistema una vez dejado de usarlos sera necesario cerrarlos para que otro programa haga uso de ellos
+		defer func() {
+			fmt.Println("cerramos el archivo!!")
+			file.Close() // cerrará el archivo
+		}()
 
-	contenidoArchivo := string(contenido[0:longitud])
+		// declaro una nueva variable
+		contenido := make([]byte, 254)
 
-	fmt.Println(contenidoArchivo)
+		longitud, _ := file.Read(contenido)
+
+		contenidoArchivo := string(contenido[0:longitud])
+
+		fmt.Println(contenidoArchivo)
+	}
+
 }

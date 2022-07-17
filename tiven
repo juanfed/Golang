@@ -1,0 +1,131 @@
+[33mcommit 427a249bc81a7fd829919ce20b72e76ae8048839[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Fri Jul 15 12:16:52 2022 -0500
+
+    Inicio de algunos ejericcios basicos donde tambien me introduje a los test, aunque toca practicar más
+
+[33mcommit 4bfb0afe5e36cbf02e2a131c6f0c6905677cb65e[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Tue Jul 12 13:26:17 2022 -0500
+
+    Aprendiendo a hacer pequeños test en golang
+
+[33mcommit 3e11633472fcb05adda2d9d7a8899c6588809da7[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Mon Jul 11 23:02:49 2022 -0500
+
+    aprendiendo sobre la palabra reservada defer
+
+[33mcommit 44992ada68dfb4bfe9d150f656570920e3a16c31[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Mon Jul 11 23:00:24 2022 -0500
+
+    ejemplo practico pero agregando la palabra recover, aparte del defer y panic que ya estabamos usando, con el fin de no cerrar el prograa de menra abructa
+
+[33mcommit 09c479cb772248009b64756e83feb02837bdfe00[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Mon Jul 11 22:46:13 2022 -0500
+
+    ejemplo practico con la palabra reservada defer
+
+[33mcommit de64121f0ce75e69c26c1f1a1a46209dcb2c9376[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Mon Jul 11 22:15:33 2022 -0500
+
+    ejemplo de variables globales
+
+[33mcommit def4143ee1de6c3c71644a19519b09a05bd93f9e[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Mon Jul 11 07:58:17 2022 -0500
+
+    Repaso de menejo de errores en golang
+
+[33mcommit c8f6a5390d2da8b8be5891daf1c418aa48dbd7ee[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Sun Jul 10 22:25:22 2022 -0500
+
+    un poco mas sobre funciones
+
+[33mcommit 4d626f5f004597fd5548dc6bd6b03d274e3d4c30[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Sun Jul 10 21:57:46 2022 -0500
+
+    repaso muy por encima de lo que es trabajar con punteros
+
+[33mcommit 27b44d9e5c5d45a892208f0c449be13ba9c6f56f[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Sun Jul 10 20:52:48 2022 -0500
+
+    repaso de mas temas relacionados con las funciones
+
+[33mcommit 97b904aee3491432a9313b728ac01662f478570c[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Sun Jul 10 14:28:17 2022 -0500
+
+    Inicio del repaso de funciones en golang
+
+[33mcommit c251300e70389c8af73cb959ab33611c4576c95a[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Fri Jul 8 23:28:04 2022 -0500
+
+    repaso del ciclo for, breack and continue y la funcion panic
+
+[33mcommit 4a2f3ae22d2760c6e15838e4abcd92c24141af4a[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Fri Jul 8 15:06:01 2022 -0500
+
+    repaso del switch en golang
+
+[33mcommit 4da1c5ec34d9b4084a816acd9f1d6c576990c4cc[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Fri Jul 8 08:58:26 2022 -0500
+
+    condicionales y ejercicios super basicos
+
+[33mcommit f67e296abc1a5cf9b303500da19886ad065d596d[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Thu Jul 7 15:31:15 2022 -0500
+
+    terminacion sobre los maps
+
+[33mcommit d48ec4c238da6b184b0035f880e7869f5e4660f6[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Thu Jul 7 08:49:29 2022 -0500
+
+    Introduccion a los map en go
+
+[33mcommit b9ff71c1c289964c9013ea66023202f935d0aa59[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Thu Jul 7 08:29:01 2022 -0500
+
+    funcion make para la creacion de los slices
+
+[33mcommit f7e66aed6302b3032adabf1f38569fab8e2a606c[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Tue Jul 5 11:57:28 2022 -0500
+
+    terminación con la seccion de slices en Golang
+
+[33mcommit 70e421f1439fe23617a5df0139be99f550012a17[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Tue Jul 5 11:17:35 2022 -0500
+
+    Tema de arrays completado
+
+[33mcommit 3788e395b2e4201300002e657af6a551ab7be9ca[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Tue Jul 5 08:24:09 2022 -0500
+
+    Terminacion del modulo 1 del curso profecional de go de codigofacilito
+
+[33mcommit 8be1208d624c7e62bd0b35952411f41dfafe34ee[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Tue Jul 5 07:11:01 2022 -0500
+
+    se añadio un poco mas de contenido introductorio
+
+[33mcommit 1795ac459d8f84ea3504d519423829ebea30f368[m
+Author: juanfed <juanfed12345@gmail.com>
+Date:   Mon Jul 4 23:26:20 2022 -0500
+
+    Primer commit donde cree un archivo de inicio en el cual aprenderé golang
